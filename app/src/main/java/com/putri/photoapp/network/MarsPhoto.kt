@@ -2,7 +2,7 @@ package com.putri.photoapp.network
 
 import com.squareup.moshi.Json
 
-// class MarsPhoto yang berisi id dengan tipe data string dan URL gambar
+// class MarsPhoto yang berisi id dengan tipe data string dan URL gambar.
 data class MarsPhoto(
         val id: String,
 
