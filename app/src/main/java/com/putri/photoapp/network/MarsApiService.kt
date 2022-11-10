@@ -25,7 +25,7 @@ interface MarsApiService {
     suspend fun getPhotos(): List<MarsPhoto>
 }
 
-// Objek MarsApi yab=ng mengekspos retrofit yang diinisialisasi dengan lazy.
+// Objek MarsApi yang mengekspos retrofit yang diinisialisasi dengan lazy.
 object MarsApi {
     val retrofitService: MarsApiService by lazy { retrofit.create(MarsApiService::class.java) }
 }
